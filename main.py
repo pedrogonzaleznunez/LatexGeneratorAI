@@ -51,6 +51,7 @@ Reglas importantes:
 6. Estilo claro:
    - Define los estilos de los nodos y las flechas explícitamente usando el comando `/.style`.
 7. Compilación directa: El código debe ser compatible con `pdflatex` y no debe requerir configuraciones adicionales.
+8. Recorda establecer distancia entre bloques SIEMPRE
 
 Aquí tienes ejemplos que debes seguir:
 
@@ -227,6 +228,72 @@ en un diagrama de bloques
         
         \end{document}
         
+        
+    otro ejemplo mal hecho:
+    
+    prompt: explicame la fotosintesis en un diagrama de 7 bloques 
+
+    respuesta (codigo mal hecho):
+        \documentclass[a4paper]{article}
+        \usepackage{tikz}
+        \usetikzlibrary{shapes,arrows,auto}
+        
+        \begin{document}
+        \begin{tikzpicture}[
+          block/.style={draw, rectangle, minimum width=3cm, minimum height=1.5cm, align=center, font=\small},
+          arrow/.style={->, thick}
+        ]
+        \node[block] (1) {Luz solar};
+        \node[block, below of=1] (2) { clorofila };
+        \node[block, below of=2] (3) { Absorción de luz };
+        \node[block, below of=3] (4) {  H₂O (agua) + CO₂ (dióxido de carbono)};
+        \node[block, below of=4] (5) { Reacciones químicas };
+        \node[block, below of=5] (6) { Glucosa (C₆H₁₂O₆) };
+        \node[block, below of=6] (7) { Oxígeno (O₂) }; 
+        
+        \draw[arrow] (1) -- (2);
+        \draw[arrow] (2) -- (3);
+        \draw[arrow] (3) -- (4);
+        \draw[arrow] (4) -- (5);
+        \draw[arrow] (5) -- (6);
+        \draw[arrow] (5) -- (7); 
+        
+        \end{tikzpicture}
+        \end{document}
+        
+    correccion (codigo bien hecho):
+
+        \documentclass[a4paper]{article}
+        \usepackage{tikz}
+        \usetikzlibrary{shapes,arrows,auto}
+        
+        \begin{document}
+        \begin{tikzpicture}[
+          block/.style={draw, rectangle, minimum width=3cm, minimum height=1.5cm, align=center, font=\small},
+          arrow/.style={->, thick}
+        ]
+        \node[block] (luz_solar) {Luz solar};
+        \node[block, below of=luz_solar] (clorofila) {Clorofila};
+        \node[block, below of=clorofila] (absorcion) {Absorción de luz};
+        \node[block, below of=absorcion] (agua_co2) {H₂O (agua) + CO₂ (dióxido de carbono)};
+        \node[block, below of=agua_co2] (reacciones) {Reacciones químicas};
+        \node[block, below of=reacciones] (glucosa) {Glucosa (C₆H₁₂O₆)};
+        \node[block, below of=glucosa] (oxigeno) {Oxígeno (O₂)};
+        
+        \draw[arrow] (luz_solar) -- (clorofila);
+        \draw[arrow] (clorofila) -- (absorcion);
+        \draw[arrow] (absorcion) -- (agua_co2);
+        \draw[arrow] (agua_co2) -- (reacciones);
+        \draw[arrow] (reacciones) -- (glucosa);
+        \draw[arrow] (reacciones) -- (oxigeno);
+        
+        \end{tikzpicture}
+        \end{document}
+
+
+
+
+    
     Responde solo con el código en formato compilable. Cada bloque debe estar ajustado verticalmente si el contenido es largo, y ningún diagrama debe salir 
     márgenes definidos.
     

@@ -1,4 +1,4 @@
-
+#mac ds store
 .DS_Store
 
 #node_modules
@@ -8,4 +8,8 @@
 /.idea/
 .gitattributes
 
-output*
+# output files
+output.aux
+output.log
+output.pdf
+output.tex

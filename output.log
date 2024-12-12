@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  12 DEC 2024 08:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  12 DEC 2024 08:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,26 +6,6 @@ entering extended mode
 (./output.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 `
-     ``latex
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no ` in font nullfont!
-Missing character: There is no ` in font nullfont!
-Missing character: There is no ` in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no x in font nullfont!
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/articl
 e.cls
@@ -41,47 +21,11 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \c@subsubsection=\count191
 \c@paragraph=\count192
 \c@subparagraph=\count193
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--274
-[]
- []
-
 \c@figure=\count194
 \c@table=\count195
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-[1{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/up
-dmap/pdftex.map}])
-(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/geometry/ge
-ometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ke
-yval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-)
-(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ifv
-tex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ift
-ex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-))
-\Gm@cnth=\count196
-\Gm@cntv=\count197
-\c@Gm@tempcnt=\count198
-\Gm@bindingoffset=\dimen141
-\Gm@wd@mp=\dimen142
-\Gm@odd@mp=\dimen143
-\Gm@even@mp=\dimen144
-\Gm@layoutwidth=\dimen145
-\Gm@layoutheight=\dimen146
-\Gm@layouthoffset=\dimen147
-\Gm@layoutvoffset=\dimen148
-\Gm@dimlist=\toks18
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/fronten
 dlayer/tikz.sty
@@ -91,9 +35,9 @@ yer/pgf.sty
 es/pgfrcs.sty
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utili
 ties/pgfutil-common.tex
-\pgfutil@everybye=\toks19
-\pgfutil@tempdima=\dimen149
-\pgfutil@tempdimb=\dimen150
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen141
+\pgfutil@tempdimb=\dimen142
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utili
 ties/pgfutil-latex.def
@@ -113,6 +57,11 @@ yer/pgfcore.sty
 aphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ke
+yval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/gr
 aphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
@@ -131,8 +80,8 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 f/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen151
-\Gin@req@width=\dimen152
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/systeml
 ayer/pgfsys.sty
@@ -142,33 +91,33 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utili
 ties/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks20
-\pgfkeys@temptoks=\toks21
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utili
 ties/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks22
+\pgfkeys@tmptoks=\toks21
 ))
-\pgf@x=\dimen153
-\pgf@y=\dimen154
-\pgf@xa=\dimen155
-\pgf@ya=\dimen156
-\pgf@xb=\dimen157
-\pgf@yb=\dimen158
-\pgf@xc=\dimen159
-\pgf@yc=\dimen160
-\pgf@xd=\dimen161
-\pgf@yd=\dimen162
+\pgf@x=\dimen145
+\pgf@y=\dimen146
+\pgf@xa=\dimen147
+\pgf@ya=\dimen148
+\pgf@xb=\dimen149
+\pgf@yb=\dimen150
+\pgf@xc=\dimen151
+\pgf@yc=\dimen152
+\pgf@xd=\dimen153
+\pgf@yd=\dimen154
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count199
-\c@pgf@countb=\count266
-\c@pgf@countc=\count267
-\c@pgf@countd=\count268
-\t@pgf@toka=\toks23
-\t@pgf@tokb=\toks24
-\t@pgf@tokc=\toks25
-\pgf@sys@id@count=\count269
+\c@pgf@counta=\count196
+\c@pgf@countb=\count197
+\c@pgf@countc=\count198
+\c@pgf@countd=\count199
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count266
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/syste
 mlayer/pgf.cfg
@@ -187,8 +136,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/syste
 mlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count270
-\pgfsyssoftpath@bigbuffer@items=\count271
+\pgfsyssoftpath@smallbuffer@items=\count267
+\pgfsyssoftpath@bigbuffer@items=\count268
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/syste
 mlayer/pgfsysprotocol.code.tex
@@ -226,12 +175,12 @@ pgfmath.code.tex
 pgfmathutil.code.tex)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/
 pgfmathparser.code.tex
-\pgfmath@dimen=\dimen163
-\pgfmath@count=\count272
+\pgfmath@dimen=\dimen155
+\pgfmath@count=\count269
 \pgfmath@box=\box52
-\pgfmath@toks=\toks26
-\pgfmath@stack@operand=\toks27
-\pgfmath@stack@operation=\toks28
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/
 pgfmathfunctions.code.tex)
@@ -255,39 +204,39 @@ pgfmathfunctions.integerarithmetics.code.tex)
 pgfmathcalc.code.tex)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/
 pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count273
+\c@pgfmathroundto@lastzeros=\count270
 ))
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/math/
 pgfint.code.tex)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen164
-\pgf@picmaxx=\dimen165
-\pgf@picminy=\dimen166
-\pgf@picmaxy=\dimen167
-\pgf@pathminx=\dimen168
-\pgf@pathmaxx=\dimen169
-\pgf@pathminy=\dimen170
-\pgf@pathmaxy=\dimen171
-\pgf@xx=\dimen172
-\pgf@xy=\dimen173
-\pgf@yx=\dimen174
-\pgf@yy=\dimen175
-\pgf@zx=\dimen176
-\pgf@zy=\dimen177
+\pgf@picminx=\dimen156
+\pgf@picmaxx=\dimen157
+\pgf@picminy=\dimen158
+\pgf@picmaxy=\dimen159
+\pgf@pathminx=\dimen160
+\pgf@pathmaxx=\dimen161
+\pgf@pathminy=\dimen162
+\pgf@pathmaxy=\dimen163
+\pgf@xx=\dimen164
+\pgf@xy=\dimen165
+\pgf@yx=\dimen166
+\pgf@yy=\dimen167
+\pgf@zx=\dimen168
+\pgf@zy=\dimen169
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen178
-\pgf@path@lasty=\dimen179
+\pgf@path@lastx=\dimen170
+\pgf@path@lasty=\dimen171
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen180
-\pgf@shorten@start@additional=\dimen181
+\pgf@shorten@end@additional=\dimen172
+\pgf@shorten@start@additional=\dimen173
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorescopes.code.tex
@@ -295,19 +244,19 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count274
+\pgf@picture@serial@count=\count271
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen182
+\pgflinewidth=\dimen174
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen183
-\pgf@pt@y=\dimen184
-\pgf@pt@temp=\dimen185
+\pgf@pt@x=\dimen175
+\pgf@pt@y=\dimen176
+\pgf@pt@temp=\dimen177
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorequick.code.tex
@@ -324,14 +273,14 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basic
 layer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen186
+\pgfarrowsep=\dimen178
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen187
-\pgf@sys@shading@range@num=\count275
-\pgf@shadingcount=\count276
+\pgf@max=\dimen179
+\pgf@sys@shading@range@num=\count272
+\pgf@shadingcount=\count273
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/basic
 layer/pgfcoreimage.code.tex
@@ -370,8 +319,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/compati
 bility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen188
-\pgf@nodesepend=\dimen189
+\pgf@nodesepstart=\dimen180
+\pgf@nodesepend=\dimen181
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/pgf/compati
 bility/pgfcomp-version-1-18.sty
@@ -390,10 +339,10 @@ pgfmath.code.tex))
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/utili
 ties/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen190
-\pgffor@skip=\dimen191
-\pgffor@stack=\toks29
-\pgffor@toks=\toks30
+\pgffor@iter=\dimen182
+\pgffor@skip=\dimen183
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
 ))
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/tikz.code.tex
@@ -402,39 +351,43 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libra
 ries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count277
-\pgfplotmarksize=\dimen192
+\pgf@plot@mark@count=\count274
+\pgfplotmarksize=\dimen184
 )
-\tikz@lastx=\dimen193
-\tikz@lasty=\dimen194
-\tikz@lastxsaved=\dimen195
-\tikz@lastysaved=\dimen196
-\tikz@lastmovetox=\dimen197
-\tikz@lastmovetoy=\dimen198
-\tikzleveldistance=\dimen199
-\tikzsiblingdistance=\dimen256
+\tikz@lastx=\dimen185
+\tikz@lasty=\dimen186
+\tikz@lastxsaved=\dimen187
+\tikz@lastysaved=\dimen188
+\tikz@lastmovetox=\dimen189
+\tikz@lastmovetoy=\dimen190
+\tikzleveldistance=\dimen191
+\tikzsiblingdistance=\dimen192
 \tikz@figbox=\box58
 \tikz@figbox@bg=\box59
 \tikz@tempbox=\box60
 \tikz@tempbox@bg=\box61
-\tikztreelevel=\count278
-\tikznumberofchildren=\count279
-\tikznumberofcurrentchild=\count280
-\tikz@fig@count=\count281
+\tikztreelevel=\count275
+\tikznumberofchildren=\count276
+\tikznumberofcurrentchild=\count277
+\tikz@fig@count=\count278
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/modul
 es/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count282
-\pgfmatrixcurrentcolumn=\count283
-\pgf@matrix@numberofcolumns=\count284
+\pgfmatrixcurrentrow=\count279
+\pgfmatrixcurrentcolumn=\count280
+\pgf@matrix@numberofcolumns=\count281
 )
-\tikz@expandcount=\count285
+\tikz@expandcount=\count282
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
 endlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -443,90 +396,126 @@ File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libra
-ries/pgflibraryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen257
-\pgfarrowlength=\dimen258
-\pgfarrowwidth=\dimen259
-\pgfarrowlinewidth=\dimen260
-)
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
-endlayer/tikz/libraries/tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)
+endlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libra
+ries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libra
+ries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libra
+ries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libra
+ries/shapes/pgflibraryshapes.callouts.code.tex))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libra
+ries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box62
+\pgfnodeparttwobox=\box63
+\pgfnodepartthreebox=\box64
+\pgfnodepartfourbox=\box65
+\pgfnodeparttwentybox=\box66
+\pgfnodepartnineteenbox=\box67
+\pgfnodeparteighteenbox=\box68
+\pgfnodepartseventeenbox=\box69
+\pgfnodepartsixteenbox=\box70
+\pgfnodepartfifteenbox=\box71
+\pgfnodepartfourteenbox=\box72
+\pgfnodepartthirteenbox=\box73
+\pgfnodeparttwelvebox=\box74
+\pgfnodepartelevenbox=\box75
+\pgfnodeparttenbox=\box76
+\pgfnodepartninebox=\box77
+\pgfnodeparteightbox=\box78
+\pgfnodepartsevenbox=\box79
+\pgfnodepartsixbox=\box80
+\pgfnodepartfivebox=\box81
+)))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/front
+endlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/pgf/libra
+ries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen193
+))
+
+! Package tikz Error: I did not find the tikz library 'auto'. I looked for file
+s named tikzlibraryauto.code.tex and pgflibraryauto.code.tex, but neither could
+ be found in the current texmf trees..
+
+See the tikz package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \usetikzlibrary{shapes,arrows,auto}
+                                       
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3backend/l
 3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count286
-\l__pdf_internal_box=\box62
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box82
 )
 No file output.aux.
 \openout1 = `output.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/context/base/mkii
 /supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
-\scratchdimen=\dimen261
-\scratchbox=\box63
-\nofMPsegments=\count288
-\nofMParguments=\count289
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count290
-\MPscratchDim=\dimen262
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count284
+\scratchdimen=\dimen194
+\scratchbox=\box83
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen195
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks31
 )
 (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/epstopdf-pk
 g/epstopdf-base.sty
@@ -538,307 +527,30 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 /epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))
-! Missing $ inserted.
-<inserted text> 
-                $
-l.14 \node[block] (F) {f(x) = 5x^
-                                 {2} + 6x + 1};
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+)) [1
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 14.
-! Extra }, or forgotten $.
-l.14 \node[block] (F) {f(x) = 5x^{2} + 6x + 1}
-                                              ;
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Undefined control sequence.
-l.15 \node
-          [block, below of=F] (G) {Regla de potencia};
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.16 \node
-          [block, below of=G] (H) {Derivada: $x^{n} \rightarrow n \cdot x^{n...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.16 \node[block, below of=G] (H) {Derivada: $
-                                              x^{n} \rightarrow n \cdot x^{n...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.16 \node[block, below of=G] (H) {Derivada: $x^
-                                                {n} \rightarrow n \cdot x^{n...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \node[block, below left=2cm and 2cm of H]
-                                               (I) {Derivada de $5x^{2}$};
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ... and 2cm of H] (I) {Derivada de $5x^{2}$};
-                                                  
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \node[block, below=2cm of H]
-                                  (K) {Derivada de $6x$};
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 ...k, below=2cm of H] (K) {Derivada de $6x$};
-                                                  
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \node[block, below right=2cm and 2cm of H]
-                                                (M) {Derivada del término c...
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 ... H] (M) {Derivada del término constante};
-                                                  
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `G' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 \draw[arrow] (F) -- (G)
-                            ;
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `G' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 \draw[arrow] (F) -- (G)
-                            ;
-(That was another \errmessage.)
-
-
-Package pgf Warning: Returning node center instead of a point on node border. D
-id you specify a point identical to the center of node ``F''? on input line 27.
-
-
-
-! Package pgf Error: No shape named `G' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \draw[arrow] (G)
-                      -- (H);
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \draw[arrow] (G) -- (H)
-                            ;
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \draw[arrow] (G) -- (H)
-                            ;
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `G' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 \draw[arrow] (G) -- (H)
-                            ;
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \draw[arrow] (H)
-                      -- (I);
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \draw[arrow] (H) -- (I)
-                            ;
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \draw[arrow] (H)
-                      -- (K);
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \draw[arrow] (H) -- (K)
-                            ;
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \draw[arrow] (H)
-                      -- (M);
-(That was another \errmessage.)
-
-
-! Package pgf Error: No shape named `H' is known.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \draw[arrow] (H) -- (M)
-                            ;
-(That was another \errmessage.)
-
-
-Overfull \hbox (17.96411pt too wide) in paragraph at lines 39--40
-[][] 
- []
-
-[2
-
-] (./output.aux)
+{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updm
+ap/pdftex.map}] (./output.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13255 strings out of 474116
- 284052 string characters out of 5732612
- 1930187 words of memory out of 5000000
- 35423 multiletter control sequences out of 15000+600000
- 559892 words of font info for 42 fonts, out of 8000000 for 9000
+ 14158 strings out of 474116
+ 322151 string characters out of 5732612
+ 1928187 words of memory out of 5000000
+ 36308 multiletter control sequences out of 15000+600000
+ 558368 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,107p,446b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,6n,107p,422b,570s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi6.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi9.pfb></opt/homebrew/Cellar/texlive/2024031
-2_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Ce
-llar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
-b></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr9.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/homebrew/Cellar/texlive/20240312
-_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on output.pdf (2 pages, 70338 bytes).
+amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on output.pdf (1 page, 23328 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 21 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
