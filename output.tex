@@ -1,0 +1,42 @@
+```latex
+\documentclass[a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning}
+
+\begin{document}
+\begin{tikzpicture}[
+  block/.style={draw, rectangle, minimum width=3.5cm, minimum height=1cm, align=center, font=\small},
+  arrow/.style={->, thick},
+  node distance=1.5cm and 2.5cm % Distancia predeterminada entre nodos
+]
+
+\node[block] (F) {f(x) = 5x^{2} + 6x + 1};
+\node[block, below of=F] (G) {Regla de potencia};
+\node[block, below of=G] (H) {Derivada: $x^{n} \rightarrow n \cdot x^{n-1}$};
+
+\node[block, below left=2cm and 2cm of H] (I) {Derivada de $5x^{2}$};
+\node[block, below=1.5cm of I] (J) {10x};
+
+\node[block, below=2cm of H] (K) {Derivada de $6x$};
+\node[block, below=1.5cm of K] (L) {6};
+
+\node[block, below right=2cm and 2cm of H] (M) {Derivada del término constante};
+\node[block, below=1.5cm of M] (N) {0};
+
+\draw[arrow] (F) -- (G);
+\draw[arrow] (G) -- (H);
+
+\draw[arrow] (H) -- (I);
+\draw[arrow] (I) -- (J);
+
+\draw[arrow] (H) -- (K);
+\draw[arrow] (K) -- (L);
+
+\draw[arrow] (H) -- (M);
+\draw[arrow] (M) -- (N);
+
+\end{tikzpicture}
+\end{document}
+
+```

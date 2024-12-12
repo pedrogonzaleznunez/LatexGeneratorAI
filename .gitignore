@@ -1,0 +1,10 @@
+
+.DS_Store
+
+#node_modules
+/venv/
+/.out/
+/new_env/
+/.idea/
+.gitattributes
+
